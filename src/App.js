@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import SyInput from './components/input';
 import Logo from './components/logo';
@@ -10,8 +10,8 @@ import SecureIcon from './assets/icons/icon_secure_attention.svg';
 
 function App() {
 
-  const [isLoading, setIsLoading] = React.useState(false);
-  const [isModalOpen, setIsModalOpen] = React.useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className="App">
       <div className="bg-container">

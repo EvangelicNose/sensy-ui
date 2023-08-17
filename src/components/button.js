@@ -1,19 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './button.sass';
 import loader from '../assets//icons/loader.svg';
 
 const RippleButton = ({ children, onClick, isLoading, isDisabled, variant }) => {
-    const [coords, setCoords] = React.useState({ x: -1, y: -1 });
-    const [isRippling, setIsRippling] = React.useState(false);
+    const [coords, setCoords] = useState({ x: -1, y: -1 });
+    const [isRippling, setIsRippling] = useState(false);
 
-    React.useEffect(() => {
+    useEffect(() => {
         if (coords.x !== -1 && coords.y !== -1) {
             setIsRippling(true);
             setTimeout(() => setIsRippling(false), 300);
         } else setIsRippling(false);
     }, [coords]);
 
-    React.useEffect(() => {
+    useEffect(() => {
         if (!isRippling) setCoords({ x: -1, y: -1 });
     }, [isRippling]);
 
