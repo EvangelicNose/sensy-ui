@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sensy-ui/static/css/main.df98fbfb.css",
+    "main.js": "/sensy-ui/static/js/main.9d36f091.js",
+    "static/js/787.488412cd.chunk.js": "/sensy-ui/static/js/787.488412cd.chunk.js",
+    "static/media/background-login.png": "/sensy-ui/static/media/background-login.3783341200169d96eb79.png",
+    "static/media/Inter.ttf": "/sensy-ui/static/media/Inter.aadb65ac45347ff46699.ttf",
+    "static/media/loader.svg": "/sensy-ui/static/media/loader.0881b1d3429e16acf922494d993e1031.svg",
+    "static/media/icon_social_twitter.svg": "/sensy-ui/static/media/icon_social_twitter.39c9c3b56098d0789922f70937728437.svg",
+    "static/media/icon_visibility_off.svg": "/sensy-ui/static/media/icon_visibility_off.191b91093f06061f5b8c266d928bdbbe.svg",
+    "static/media/icon_secure_attention.svg": "/sensy-ui/static/media/icon_secure_attention.a58ef6a6f4c730f9c48555574b2abada.svg",
+    "index.html": "/sensy-ui/index.html",
+    "static/media/icon_visibility_on.svg": "/sensy-ui/static/media/icon_visibility_on.9aa8942394ff18a240ca2a14b2cc3de5.svg",
+    "static/media/icon_social_facebook.svg": "/sensy-ui/static/media/icon_social_facebook.d30315b33fdeb7761ea4880798bb4b7d.svg",
+    "main.df98fbfb.css.map": "/sensy-ui/static/css/main.df98fbfb.css.map",
+    "main.9d36f091.js.map": "/sensy-ui/static/js/main.9d36f091.js.map",
+    "787.488412cd.chunk.js.map": "/sensy-ui/static/js/787.488412cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df98fbfb.css",
+    "static/js/main.9d36f091.js"
+  ]
+}
